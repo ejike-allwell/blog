@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url(tools/blog-preview-card-main/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(tools/blog-preview-card-main/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body{
+    display: grid;
+    place-content: center;
+    justify-content: center;
+    background-color:  hsl(47, 88%, 63%);
+    height: 100vh;
+    font-family:'MyFont' ;
+} 
+.container{
+    width: 19rem;
+    border: 2px solid;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: hsl(0, 0%, 100%);
+}
+.container:hover{
+    box-shadow: 10px 10px 0px;
+    transform: translate(-10px, -10px);
+    transition:.3s ease; 
+}
+#card{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+#first-head{
+    background-color: hsl(47, 88%, 63%);
+    width: 5rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+#first{
+    font-weight: 400;
+}
+#head{
+    font-weight:bold;
+}
+#second-para{
+    color: hsl(0, 0%, 42%);
+}
+#avater{
+    float:left;
+    max-width: 10%; 
+}
+#second-head{
+    margin-left: 0.5rem;
+}
