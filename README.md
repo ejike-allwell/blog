@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- git-hub link: [repo link](git@github.com:ejike-allwell/blog.git)
+- Live Site URL: [live link](https://blog-neon-mu-30.vercel.app/)
 
 ## My process
   Built the structure first with and then proceeded to style it with css
